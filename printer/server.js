@@ -12,9 +12,8 @@ const fetch = require("node-fetch");
 const list = require("./src/list");
 //put your printer here
 const options = {
-  printer: "HP-LaserJet-M1522nf-MFP-2"
+  printer: "Canon_MX490_series"
 };
-
 const app = express();
 app.use(cors());
 app.use(logger('dev'));
